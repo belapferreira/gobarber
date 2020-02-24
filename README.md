@@ -14,7 +14,7 @@
 
 <blockquote align="center">“Acredite em você a cada passo”</blockquote>
 
-## :heavy_check_mark: Tecnologia | Ferramentas | Recursos
+## :heavy_check_mark: Tecnologias | Ferramentas | Recursos
 
 Esse projeto está está sendo desenvolvido no [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) utilizando os seguintes recursos:
 
@@ -46,4 +46,4 @@ Esse projeto está sob MIT license. Veja [LICENSE](https://github.com/lukemorale
 
 ---
 
-Feito por Bela Ferreira :blue_heart: Contato:https://www.linkedin.com/in/belapferreira :blush:
+Feito por Bela Ferreira :blue_heart: Contato: https://www.linkedin.com/in/belapferreira :blush:
