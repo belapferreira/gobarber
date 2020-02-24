@@ -1,5 +1,5 @@
-import { format, parseISO } from 'date-fns';
-import pt from 'date-fns/locale/pt';
+import pt, { format, parseISO } from 'date-fns';
+
 import Mail from '../../lib/Mail';
 
 class CancellationMail {
@@ -9,8 +9,6 @@ class CancellationMail {
 
   async handle({ data }) {
     const { appointment } = data;
-
-    console.log('A fila executou!');
 
     await Mail.sendMail({
       to: `${appointment.provider.name} <${appointment.provider.email}>`,
