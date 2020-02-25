@@ -14,7 +14,7 @@
 
 <blockquote align="center">“Acredite em você a cada passo”</blockquote>
 
-## :heavy_check_mark: Tecnologias | Ferramentas | Recursos
+### :wrench: Tecnologias | Ferramentas | Recursos
 
 Esse projeto está está sendo desenvolvido no [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) utilizando os seguintes recursos:
 
@@ -40,8 +40,13 @@ Esse projeto está está sendo desenvolvido no [RocketSeat GoStack Bootcamp](htt
 -  [Sentry](https://sentry.io/)
 -  [DotEnv](https://www.npmjs.com/package/dotenv)
 -  [ESLint](https://eslint.org/)
+-  [Visual Studio Code](https://code.visualstudio.com/)
+-  [Insomnia](https://insomnia.rest/)
+-  [Mailtrap](https://mailtrap.io/)
+-  [Sentry](https://sentry.io/)
 
-## :memo: License
+
+### :memo: License
 Esse projeto está sob MIT license. Veja [LICENSE](https://github.com/lukemorales/gobarber-api/blob/master/LICENSE) para mais informações.
 
 ---
