@@ -46,7 +46,7 @@ Esse projeto está está sendo desenvolvido no [RocketSeat GoStack Bootcamp](htt
 
 
 ### :memo: License
-Esse projeto está sob MIT license. Veja [LICENSE](https://github.com/lukemorales/gobarber-api/blob/master/LICENSE) para mais informações.
+Esse projeto está sob MIT license. Veja [LICENSE](https://github.com/belapferreira/gobarber/blob/master/LICENSE) para mais informações.
 
 ---
 
