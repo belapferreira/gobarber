@@ -5,7 +5,7 @@ import { Route, Redirect } from 'react-router-dom';
 import AuthLayout from '~/pages/_layouts/auth';
 import DefaultLayout from '~/pages/_layouts/default';
 
-import store from '~/store';
+import { store } from '~/store';
 
 export default function RouteWrapper({
   component: Component,
@@ -37,9 +37,9 @@ export default function RouteWrapper({
 }
 
 RouteWrapper.propTypes = {
+  isPrivate: PropTypes.bool,
   component: PropTypes.oneOfType([PropTypes.element, PropTypes.func])
     .isRequired,
-  isPrivate: PropTypes.bool,
 };
 
 RouteWrapper.defaultProps = {
