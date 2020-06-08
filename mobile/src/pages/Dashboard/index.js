@@ -45,7 +45,7 @@ function Dashboard({ isFocused }) {
 
         <List
           data={appointments}
-          keyExtractor={(item) => String(item.id)}
+          keyExtractor={(item) => item.id.toString()}
           renderItem={({ item }) => (
             <Appointment onCancel={() => handleCancel(item.id)} data={item} />
           )}

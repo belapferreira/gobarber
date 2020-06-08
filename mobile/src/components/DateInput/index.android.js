@@ -1,4 +1,5 @@
 import React, { useMemo } from 'react';
+import PropTypes from 'prop-types';
 import { DatePickerAndroid } from 'react-native';
 import { format } from 'date-fns';
 import pt from 'date-fns/locale/pt';
@@ -16,7 +17,7 @@ export default function DateInput({ date, onChange }) {
   async function handleOpenPicker() {
     const { action, year, month, day } = await DatePickerAndroid.open({
       mode: 'spinner',
-      date,
+      minDate: new Date(),
     });
 
     if (action === DatePickerAndroid.dateSetAction) {
@@ -35,3 +36,12 @@ export default function DateInput({ date, onChange }) {
     </Container>
   );
 }
+
+DateInput.propTypes = {
+  date: PropTypes.instanceOf(Date),
+  onChange: PropTypes.oneOfType([PropTypes.func, PropTypes.bool]).isRequired,
+};
+
+DateInput.defaultProps = {
+  date: new Date(),
+};

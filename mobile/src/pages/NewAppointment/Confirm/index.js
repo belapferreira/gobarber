@@ -56,7 +56,7 @@ Confirm.propTypes = {
     params: PropTypes.shape({
       time: PropTypes.string,
       provider: PropTypes.shape({
-        id: PropTypes.string,
+        id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
         name: PropTypes.string,
         avatar: PropTypes.shape({
           url: PropTypes.string,

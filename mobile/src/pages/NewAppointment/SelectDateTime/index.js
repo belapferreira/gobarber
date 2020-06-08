@@ -65,7 +65,7 @@ SelectDateTime.propTypes = {
   route: PropTypes.shape({
     params: PropTypes.shape({
       provider: PropTypes.shape({
-        id: PropTypes.string,
+        id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
       }),
     }),
   }).isRequired,
