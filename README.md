@@ -15,14 +15,14 @@
 </p>
 
 <p align="center">
-  <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-configurações-necessárias">Configurações necessária</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-clonando-o-repositório">Clonando o repositório</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-iniciando-o-backend">Iniciando o backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-iniciando-o-frontend">Iniciando o frontend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-iniciando-o-mobile">Iniciando o mobile</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias-ferramentas-recursos">Tecnologias | Ferramentas | Recursos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#heavy_check_mark-configurações-necessárias">Configurações necessárias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#arrow_down_small-clonando-o-repositório">Clonando o repositório</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#beginner-iniciando-o-backend">Iniciando o backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-iniciando-o-frontend">Iniciando o frontend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#iphone-iniciando-o-mobile">Iniciando o mobile</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#wrench-tecnologias--ferramentas--recursos">Tecnologias | Ferramentas | Recursos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">Licença</a>
 </p>
 
 Durante as aulas do [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) além da teoria e para melhor aprendizado é desenvolvida uma aplicação completa (Back-end, Front-end e Mobile) exemplificando como são usados os conteúdos aprendidos e para treinar e consolidar o que foi ensinado fiz o clone code do app aplicando algumas estilização diferentes da proposta do projeto original.
@@ -100,7 +100,7 @@ yarn sequelize db:migrate
 yarn dev
 ```
 ### :computer: Iniciando o frontend
-######Observação: é necessário que o backend tenha sido iniciado antes.
+###### Observação: é necessário que o backend tenha sido iniciado antes.
 1. Pelo terminal, acesse o diretório fronted do repositório clonado e execute os seguintes comandos separadamente.
 ```bash
 # instalando as dependências
@@ -110,7 +110,7 @@ yarn install
 yarn start
 ```
 ### :iphone: Iniciando o mobile
-######Observação: é necessário que o backend tenha sido iniciado antes.
+###### Observação: é necessário que o backend tenha sido iniciado antes.
 1. Inicialize o emulador ou conecte o dispositivo físico e verifique a disponibilidade em uma janela do terminal.
 ```bash
 # verificando dispositivos disponíveis
@@ -136,117 +136,117 @@ digite r no terminal || cmd + r e reload || ctrl + m e reload
 
 Esse projeto foi desenvolvido utilizando os seguintes recursos:
 
-- Geral
+Geral
 
-[ESLint](https://eslint.org/)
-[Prettier](https://prettier.io/)
-[Visual Studio Code](https://code.visualstudio.com/)
+-  [ESLint](https://eslint.org/)
+-  [Prettier](https://prettier.io/)
+-  [Visual Studio Code](https://code.visualstudio.com/)
 
-- Backend
+Backend
 
-[Bcrypt](https://www.npmjs.com/package/bcrypt)
-[Bee Queue](https://www.npmjs.com/package/bcrypt)
-[Cors](https://github.com/expressjs/cors)
-[Docker](https://www.docker.com/docker-community)
-[date-fns](https://date-fns.org/)
-[DotEnv](https://www.npmjs.com/package/dotenv)
-[Express](https://expressjs.com/)
-[Express-Async-Errors](https://github.com/davidbanham/express-async-errors)
-[Express-Handlebars](https://github.com/ericf/express-handlebars)
-[Insomnia](https://insomnia.rest/)
-[JWT](https://jwt.io/)
-[Jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
-[Mailtrap](https://mailtrap.io/)
-[MongoDB](https://www.mongodb.com/)
-[Mongoose](https://mongoosejs.com/)
-[Multer](https://github.com/expressjs/multer)
-[Node.js](https://nodejs.org/en/)
-[node-postgres](https://www.npmjs.com/package/pg)
-[Nodemailer](https://nodemailer.com/about/)
-[Nodemailer-Express-Handlebars](https://www.npmjs.com/package/nodemailer-express-handlebars)
-[nodemon](https://nodemon.io/)
-[Pg](https://www.npmjs.com/package/pg)
-[Pg-Hstore](https://www.npmjs.com/package/pg-hstore)
-[PostgreSQL](https://www.postgresql.org/)
-[Redis](https://redis.io/)
-[Sentry](https://sentry.io/)
-[Sequelize](http://docs.sequelizejs.com/)
-[Sucrase](https://github.com/alangpierce/sucrase)
-[Youch](https://www.npmjs.com/package/youch)
-[Yup](https://www.npmjs.com/package/yup)
+-  [Bcrypt](https://www.npmjs.com/package/bcrypt)
+-  [Bee Queue](https://www.npmjs.com/package/bcrypt)
+-  [Cors](https://github.com/expressjs/cors)
+-  [Docker](https://www.docker.com/docker-community)
+-  [date-fns](https://date-fns.org/)
+-  [DotEnv](https://www.npmjs.com/package/dotenv)
+-  [Express](https://expressjs.com/)
+-  [Express-Async-Errors](https://github.com/davidbanham/express-async-errors)
+-  [Express-Handlebars](https://github.com/ericf/express-handlebars)
+-  [Insomnia](https://insomnia.rest/)
+-  [JWT](https://jwt.io/)
+-  [Jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+-  [Mailtrap](https://mailtrap.io/)
+-  [MongoDB](https://www.mongodb.com/)
+-  [Mongoose](https://mongoosejs.com/)
+-  [Multer](https://github.com/expressjs/multer)
+-  [Node.js](https://nodejs.org/en/)
+-  [node-postgres](https://www.npmjs.com/package/pg)
+-  [Nodemailer](https://nodemailer.com/about/)
+-  [Nodemailer-Express-Handlebars](https://www.npmjs.com/package/nodemailer-express-handlebars)
+-  [nodemon](https://nodemon.io/)
+-  [Pg](https://www.npmjs.com/package/pg)
+-  [Pg-Hstore](https://www.npmjs.com/package/pg-hstore)
+-  [PostgreSQL](https://www.postgresql.org/)
+-  [Redis](https://redis.io/)
+-  [Sentry](https://sentry.io/)
+-  [Sequelize](http://docs.sequelizejs.com/)
+-  [Sucrase](https://github.com/alangpierce/sucrase)
+-  [Youch](https://www.npmjs.com/package/youch)
+-  [Yup](https://www.npmjs.com/package/yup)
 
-- Frontend
+Frontend
 
-[@rocketseat/unform](https://github.com/Rocketseat/unform)
-[@testing-library/jest-dom](https://github.com/testing-library/jest-dom)
-[@testing-library/react](https://github.com/testing-library/react-testing-library)
-[@testing-library/user-event](https://github.com/testing-library/user-event)
-[axios](https://www.npmjs.com/package/axios)
-[babel-eslint](https://github.com/babel/babel-eslint)
-[babel-plugin-root-import](https://www.npmjs.com/package/babel-plugin-root-import)
-[customize-cra](https://github.com/arackaf/customize-cra)
-[date-fns](https://date-fns.org/)
-[date-fns-tz](https://www.npmjs.com/package/date-fns-tz)
-[history](https://github.com/ReactTraining/history)
-[immer](https://github.com/immerjs/immer)
-[polished](https://polished.js.org/)
-[prop-types](https://www.npmjs.com/package/prop-types)
-[react](https://pt-br.reactjs.org/)
-[react-app-rewired](https://www.npmjs.com/package/react-app-rewired)
-[react-dom](https://www.npmjs.com/package/react-dom)
-[react-icons](https://react-icons.github.io/react-icons/)
-[react-perfect-scrollbar](https://github.com/goldenyz/react-perfect-scrollbar)
-[react-redux](https://redux.js.org/basics/usage-with-react)
-[react-router-dom](https://reacttraining.com/react-router/web/guides/quick-start)
-[react-scripts](https://www.npmjs.com/package/react-scripts)
-[react-toastify](https://github.com/fkhadra/react-toastify)
-[reactotron-react-js](https://github.com/infinitered/reactotron)
-[reactotron-redux](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux.md)
-[reactotron-redux-saga](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux-saga.md)
-[redux](https://redux.js.org/)
-[redux-persist](https://github.com/rt2zz/redux-persist)
-[redux-saga](https://redux-saga.js.org/)
-[styled-components](https://styled-components.com/)
+-  [@rocketseat/unform](https://github.com/Rocketseat/unform)
+-  [@testing-library/jest-dom](https://github.com/testing-library/jest-dom)
+-  [@testing-library/react](https://github.com/testing-library/react-testing-library)
+-  [@testing-library/user-event](https://github.com/testing-library/user-event)
+-  [axios](https://www.npmjs.com/package/axios)
+-  [babel-eslint](https://github.com/babel/babel-eslint)
+-  [babel-plugin-root-import](https://www.npmjs.com/package/babel-plugin-root-import)
+-  [customize-cra](https://github.com/arackaf/customize-cra)
+-  [date-fns](https://date-fns.org/)
+-  [date-fns-tz](https://www.npmjs.com/package/date-fns-tz)
+-  [history](https://github.com/ReactTraining/history)
+-  [immer](https://github.com/immerjs/immer)
+-  [polished](https://polished.js.org/)
+-  [prop-types](https://www.npmjs.com/package/prop-types)
+-  [react](https://pt-br.reactjs.org/)
+-  [react-app-rewired](https://www.npmjs.com/package/react-app-rewired)
+-  [react-dom](https://www.npmjs.com/package/react-dom)
+-  [react-icons](https://react-icons.github.io/react-icons/)
+-  [react-perfect-scrollbar](https://github.com/goldenyz/react-perfect-scrollbar)
+-  [react-redux](https://redux.js.org/basics/usage-with-react)
+-  [react-router-dom](https://reacttraining.com/react-router/web/guides/quick-start)
+-  [react-scripts](https://www.npmjs.com/package/react-scripts)
+-  [react-toastify](https://github.com/fkhadra/react-toastify)
+-  [reactotron-react-js](https://github.com/infinitered/reactotron)
+-  [reactotron-redux](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux.md)
+-  [reactotron-redux-saga](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux-saga.md)
+-  [redux](https://redux.js.org/)
+-  [redux-persist](https://github.com/rt2zz/redux-persist)
+-  [redux-saga](https://redux-saga.js.org/)
+-  [styled-components](https://styled-components.com/)
 
-- Mobile
+Mobile
 
-[@babel/core](https://babeljs.io/docs/en/babel-core)
-[@babel/runtime](https://babeljs.io/docs/en/babel-runtime)
-[@react-native-community/async-storage](https://github.com/react-native-community/async-storage)
-[@react-native-community/cli](https://github.com/react-native-community/cli)
-[@react-native-community/datetimepicker](https://github.com/react-native-community/datetimepicker)
-[@react-native-community/eslint-config](https://github.com/facebook/react-native/tree/master/packages/eslint-config-react-native-community)
-[@react-native-community/masked-view](https://github.com/react-native-community/react-native-masked-view)
-[@react-navigation/bottom-tabs](https://reactnavigation.org/docs/bottom-tab-navigator/)
-[@react-navigation/compat](https://www.npmjs.com/package/@react-navigation/compat)
-[@react-navigation/native](https://www.npmjs.com/package/@react-navigation/native)
-[@react-navigation/stack](https://www.npmjs.com/package/react-navigation-stack)
-[babel-eslint](https://github.com/babel/babel-eslint)
-[babel-jest](https://www.npmjs.com/package/babel-jest)
-[babel-plugin-root-import](https://www.npmjs.com/package/babel-plugin-root-import)
-[axios](https://www.npmjs.com/package/axios)
-[date-fns](https://date-fns.org/)
-[immer](https://github.com/immerjs/immer)
-[jest](https://jestjs.io/)
-[metro-react-native-babel-preset](https://www.npmjs.com/package/metro-react-native-babel-preset)
-[prop-types](https://www.npmjs.com/package/prop-types)
-[react](https://pt-br.reactjs.org/)
-[react-native](https://reactnative.dev/)
-[react-native-gesture-handler](https://github.com/software-mansion/react-native-gesture-handler)
-[react-native-linear-gradient](https://github.com/react-native-community/react-native-linear-gradient)
-[react-native-reanimated](https://github.com/software-mansion/react-native-reanimated)
-[react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context)
-[react-native-screens](https://github.com/software-mansion/react-native-screens)
-[react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
-[react-redux](https://redux.js.org/basics/usage-with-react)
-[react-test-renderer](https://www.npmjs.com/package/react-test-renderer)
-[reactotron-react-native](https://github.com/infinitered/reactotron/blob/master/docs/quick-start-react-native.md)
-[reactotron-redux](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux.md)
-[reactotron-redux-saga](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux-saga.md)
-[redux](https://redux.js.org/)
-[redux-persist](https://github.com/rt2zz/redux-persist)
-[redux-saga](https://redux-saga.js.org/)
-[styled-components](https://styled-components.com/)
+-  [@babel/core](https://babeljs.io/docs/en/babel-core)
+-  [@babel/runtime](https://babeljs.io/docs/en/babel-runtime)
+-  [@react-native-community/async-storage](https://github.com/react-native-community/async-storage)
+-  [@react-native-community/cli](https://github.com/react-native-community/cli)
+-  [@react-native-community/datetimepicker](https://github.com/react-native-community/datetimepicker)
+-  [@react-native-community/eslint-config](https://github.com/facebook/react-native/tree/master/packages/eslint-config-react-native-community)
+-  [@react-native-community/masked-view](https://github.com/react-native-community/react-native-masked-view)
+-  [@react-navigation/bottom-tabs](https://reactnavigation.org/docs/bottom-tab-navigator/)
+-  [@react-navigation/compat](https://www.npmjs.com/package/@react-navigation/compat)
+-  [@react-navigation/native](https://www.npmjs.com/package/@react-navigation/native)
+-  [@react-navigation/stack](https://www.npmjs.com/package/react-navigation-stack)
+-  [babel-eslint](https://github.com/babel/babel-eslint)
+-  [babel-jest](https://www.npmjs.com/package/babel-jest)
+-  [babel-plugin-root-import](https://www.npmjs.com/package/babel-plugin-root-import)
+-  [axios](https://www.npmjs.com/package/axios)
+-  [date-fns](https://date-fns.org/)
+-  [immer](https://github.com/immerjs/immer)
+-  [jest](https://jestjs.io/)
+-  [metro-react-native-babel-preset](https://www.npmjs.com/package/metro-react-native-babel-preset)
+-  [prop-types](https://www.npmjs.com/package/prop-types)
+-  [react](https://pt-br.reactjs.org/)
+-  [react-native](https://reactnative.dev/)
+-  [react-native-gesture-handler](https://github.com/software-mansion/react-native-gesture-handler)
+-  [react-native-linear-gradient](https://github.com/react-native-community/react-native-linear-gradient)
+-  [react-native-reanimated](https://github.com/software-mansion/react-native-reanimated)
+-  [react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context)
+-  [react-native-screens](https://github.com/software-mansion/react-native-screens)
+-  [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
+-  [react-redux](https://redux.js.org/basics/usage-with-react)
+-  [react-test-renderer](https://www.npmjs.com/package/react-test-renderer)
+-  [reactotron-react-native](https://github.com/infinitered/reactotron/blob/master/docs/quick-start-react-native.md)
+-  [reactotron-redux](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux.md)
+-  [reactotron-redux-saga](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux-saga.md)
+-  [redux](https://redux.js.org/)
+-  [redux-persist](https://github.com/rt2zz/redux-persist)
+-  [redux-saga](https://redux-saga.js.org/)
+-  [styled-components](https://styled-components.com/)
 
 ### :memo: License
 Esse projeto está sob MIT license. Veja [LICENSE](https://github.com/belapferreira/gobarber/blob/master/LICENSE) para mais informações.

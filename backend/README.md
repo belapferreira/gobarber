@@ -6,6 +6,14 @@
   O projeto desenvolvido foi uma aplicação completa para uma prestadora de serviços de beleza fictícia, a GoBarber.
 </h3>
 
+<p align="center">
+  <a href="#heavy_check_mark-configurações-necessárias">Configurações necessárias</>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#arrow_down_small-clonando-o-repositório">Clonando o repositório</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#beginner-iniciando-o-backend">Iniciando o backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#wrench-tecnologias--ferramentas--recursos">Tecnologias | Ferramentas | Recursos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="##memo-license">Licença</a>
+</p>
+
 Durante as aulas do [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) além da teoria e para melhor aprendizado é desenvolvida uma aplicação completa (Back-end, Front-end e Mobile) exemplificando como são usados os conteúdos aprendidos e para treinar e consolidar o que foi ensinado fiz o clone code do app aplicando algumas estilização diferentes da proposta do projeto original.
 
 <p align="center">
@@ -58,44 +66,44 @@ yarn dev
 
 Esse projeto foi desenvolvido utilizando os seguintes recursos:
 
-- Geral
+Geral
 
-[ESLint](https://eslint.org/)
-[Prettier](https://prettier.io/)
-[Visual Studio Code](https://code.visualstudio.com/)
+-  [ESLint](https://eslint.org/)
+-  [Prettier](https://prettier.io/)
+-  [Visual Studio Code](https://code.visualstudio.com/)
 
-- Backend
+Backend
 
-[Bcrypt](https://www.npmjs.com/package/bcrypt)
-[Bee Queue](https://www.npmjs.com/package/bcrypt)
-[Cors](https://github.com/expressjs/cors)
-[Docker](https://www.docker.com/docker-community)
-[date-fns](https://date-fns.org/)
-[DotEnv](https://www.npmjs.com/package/dotenv)
-[Express](https://expressjs.com/)
-[Express-Async-Errors](https://github.com/davidbanham/express-async-errors)
-[Express-Handlebars](https://github.com/ericf/express-handlebars)
-[Insomnia](https://insomnia.rest/)
-[JWT](https://jwt.io/)
-[Jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
-[Mailtrap](https://mailtrap.io/)
-[MongoDB](https://www.mongodb.com/)
-[Mongoose](https://mongoosejs.com/)
-[Multer](https://github.com/expressjs/multer)
-[Node.js](https://nodejs.org/en/)
-[node-postgres](https://www.npmjs.com/package/pg)
-[Nodemailer](https://nodemailer.com/about/)
-[Nodemailer-Express-Handlebars](https://www.npmjs.com/package/nodemailer-express-handlebars)
-[nodemon](https://nodemon.io/)
-[Pg](https://www.npmjs.com/package/pg)
-[Pg-Hstore](https://www.npmjs.com/package/pg-hstore)
-[PostgreSQL](https://www.postgresql.org/)
-[Redis](https://redis.io/)
-[Sentry](https://sentry.io/)
-[Sequelize](http://docs.sequelizejs.com/)
-[Sucrase](https://github.com/alangpierce/sucrase)
-[Youch](https://www.npmjs.com/package/youch)
-[Yup](https://www.npmjs.com/package/yup)
+-  [Bcrypt](https://www.npmjs.com/package/bcrypt)
+-  [Bee Queue](https://www.npmjs.com/package/bcrypt)
+-  [Cors](https://github.com/expressjs/cors)
+-  [Docker](https://www.docker.com/docker-community)
+-  [date-fns](https://date-fns.org/)
+-  [DotEnv](https://www.npmjs.com/package/dotenv)
+-  [Express](https://expressjs.com/)
+-  [Express-Async-Errors](https://github.com/davidbanham/express-async-errors)
+-  [Express-Handlebars](https://github.com/ericf/express-handlebars)
+-  [Insomnia](https://insomnia.rest/)
+-  [JWT](https://jwt.io/)
+-  [Jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+-  [Mailtrap](https://mailtrap.io/)
+-  [MongoDB](https://www.mongodb.com/)
+-  [Mongoose](https://mongoosejs.com/)
+-  [Multer](https://github.com/expressjs/multer)
+-  [Node.js](https://nodejs.org/en/)
+-  [node-postgres](https://www.npmjs.com/package/pg)
+-  [Nodemailer](https://nodemailer.com/about/)
+-  [Nodemailer-Express-Handlebars](https://www.npmjs.com/package/nodemailer-express-handlebars)
+-  [nodemon](https://nodemon.io/)
+-  [Pg](https://www.npmjs.com/package/pg)
+-  [Pg-Hstore](https://www.npmjs.com/package/pg-hstore)
+-  [PostgreSQL](https://www.postgresql.org/)
+-  [Redis](https://redis.io/)
+-  [Sentry](https://sentry.io/)
+-  [Sequelize](http://docs.sequelizejs.com/)
+-  [Sucrase](https://github.com/alangpierce/sucrase)
+-  [Youch](https://www.npmjs.com/package/youch)
+-  [Yup](https://www.npmjs.com/package/yup)
 
 ### :memo: License
 Esse projeto está sob MIT license. Veja [LICENSE](https://github.com/belapferreira/gobarber/blob/master/LICENSE) para mais informações.

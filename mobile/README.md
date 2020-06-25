@@ -6,6 +6,15 @@
   O projeto desenvolvido foi uma aplicação completa para uma prestadora de serviços de beleza fictícia, a GoBarber.
 </h3>
 
+<p align="center">
+  <a href="#funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#heavy_check_mark-configurações-necessárias">Configurações necessárias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#arrow_down_small-clonando-o-repositório">Clonando o repositório</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#iphone-iniciando-o-mobile">Iniciando o mobile</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#wrench-tecnologias--ferramentas--recursos">Tecnologias | Ferramentas | Recursos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">Licença</a>
+</p>
+
 Durante as aulas do [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) além da teoria e para melhor aprendizado é desenvolvida uma aplicação completa (Back-end, Front-end e Mobile) exemplificando como são usados os conteúdos aprendidos e para treinar e consolidar o que foi ensinado fiz o clone code do app aplicando algumas estilização diferentes da proposta do projeto original.
 
   <p align="center">
@@ -66,51 +75,51 @@ digite r no terminal || cmd + r e reload || ctrl + m e reload
 
 Esse projeto foi desenvolvido utilizando os seguintes recursos:
 
-- Geral
+Geral
 
-[ESLint](https://eslint.org/)
-[Prettier](https://prettier.io/)
-[Visual Studio Code](https://code.visualstudio.com/)
+-  [ESLint](https://eslint.org/)
+-  [Prettier](https://prettier.io/)
+-  [Visual Studio Code](https://code.visualstudio.com/)
 
-- Mobile
+Mobile
 
-[@babel/core](https://babeljs.io/docs/en/babel-core)
-[@babel/runtime](https://babeljs.io/docs/en/babel-runtime)
-[@react-native-community/async-storage](https://github.com/react-native-community/async-storage)
-[@react-native-community/cli](https://github.com/react-native-community/cli)
-[@react-native-community/datetimepicker](https://github.com/react-native-community/datetimepicker)
-[@react-native-community/eslint-config](https://github.com/facebook/react-native/tree/master/packages/eslint-config-react-native-community)
-[@react-native-community/masked-view](https://github.com/react-native-community/react-native-masked-view)
-[@react-navigation/bottom-tabs](https://reactnavigation.org/docs/bottom-tab-navigator/)
-[@react-navigation/compat](https://www.npmjs.com/package/@react-navigation/compat)
-[@react-navigation/native](https://www.npmjs.com/package/@react-navigation/native)
-[@react-navigation/stack](https://www.npmjs.com/package/react-navigation-stack)
-[babel-eslint](https://github.com/babel/babel-eslint)
-[babel-jest](https://www.npmjs.com/package/babel-jest)
-[babel-plugin-root-import](https://www.npmjs.com/package/babel-plugin-root-import)
-[axios](https://www.npmjs.com/package/axios)
-[date-fns](https://date-fns.org/)
-[immer](https://github.com/immerjs/immer)
-[jest](https://jestjs.io/)
-[metro-react-native-babel-preset](https://www.npmjs.com/package/metro-react-native-babel-preset)
-[prop-types](https://www.npmjs.com/package/prop-types)
-[react](https://pt-br.reactjs.org/)
-[react-native](https://reactnative.dev/)
-[react-native-gesture-handler](https://github.com/software-mansion/react-native-gesture-handler)
-[react-native-linear-gradient](https://github.com/react-native-community/react-native-linear-gradient)
-[react-native-reanimated](https://github.com/software-mansion/react-native-reanimated)
-[react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context)
-[react-native-screens](https://github.com/software-mansion/react-native-screens)
-[react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
-[react-redux](https://redux.js.org/basics/usage-with-react)
-[react-test-renderer](https://www.npmjs.com/package/react-test-renderer)
-[reactotron-react-native](https://github.com/infinitered/reactotron/blob/master/docs/quick-start-react-native.md)
-[reactotron-redux](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux.md)
-[reactotron-redux-saga](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux-saga.md)
-[redux](https://redux.js.org/)
-[redux-persist](https://github.com/rt2zz/redux-persist)
-[redux-saga](https://redux-saga.js.org/)
-[styled-components](https://styled-components.com/)
+-  [@babel/core](https://babeljs.io/docs/en/babel-core)
+-  [@babel/runtime](https://babeljs.io/docs/en/babel-runtime)
+-  [@react-native-community/async-storage](https://github.com/react-native-community/async-storage)
+-  [@react-native-community/cli](https://github.com/react-native-community/cli)
+-  [@react-native-community/datetimepicker](https://github.com/react-native-community/datetimepicker)
+-  [@react-native-community/eslint-config](https://github.com/facebook/react-native/tree/master/packages/eslint-config-react-native-community)
+-  [@react-native-community/masked-view](https://github.com/react-native-community/react-native-masked-view)
+-  [@react-navigation/bottom-tabs](https://reactnavigation.org/docs/bottom-tab-navigator/)
+-  [@react-navigation/compat](https://www.npmjs.com/package/@react-navigation/compat)
+-  [@react-navigation/native](https://www.npmjs.com/package/@react-navigation/native)
+-  [@react-navigation/stack](https://www.npmjs.com/package/react-navigation-stack)
+-  [babel-eslint](https://github.com/babel/babel-eslint)
+-  [babel-jest](https://www.npmjs.com/package/babel-jest)
+-  [babel-plugin-root-import](https://www.npmjs.com/package/babel-plugin-root-import)
+-  [axios](https://www.npmjs.com/package/axios)
+-  [date-fns](https://date-fns.org/)
+-  [immer](https://github.com/immerjs/immer)
+-  [jest](https://jestjs.io/)
+-  [metro-react-native-babel-preset](https://www.npmjs.com/package/metro-react-native-babel-preset)
+-  [prop-types](https://www.npmjs.com/package/prop-types)
+-  [react](https://pt-br.reactjs.org/)
+-  [react-native](https://reactnative.dev/)
+-  [react-native-gesture-handler](https://github.com/software-mansion/react-native-gesture-handler)
+-  [react-native-linear-gradient](https://github.com/react-native-community/react-native-linear-gradient)
+-  [react-native-reanimated](https://github.com/software-mansion/react-native-reanimated)
+-  [react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context)
+-  [react-native-screens](https://github.com/software-mansion/react-native-screens)
+-  [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
+-  [react-redux](https://redux.js.org/basics/usage-with-react)
+-  [react-test-renderer](https://www.npmjs.com/package/react-test-renderer)
+-  [reactotron-react-native](https://github.com/infinitered/reactotron/blob/master/docs/quick-start-react-native.md)
+-  [reactotron-redux](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux.md)
+-  [reactotron-redux-saga](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux-saga.md)
+-  [redux](https://redux.js.org/)
+-  [redux-persist](https://github.com/rt2zz/redux-persist)
+-  [redux-saga](https://redux-saga.js.org/)
+-  [styled-components](https://styled-components.com/)
 
 ### :memo: License
 Esse projeto está sob MIT license. Veja [LICENSE](https://github.com/belapferreira/gobarber/blob/master/LICENSE) para mais informações.
