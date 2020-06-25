@@ -17,13 +17,15 @@ export default function DateInput({ date, onChange }) {
   async function handleOpenPicker() {
     const { action, year, month, day } = await DatePickerAndroid.open({
       mode: 'spinner',
-      minDate: new Date(),
+      date,
     });
 
     if (action === DatePickerAndroid.dateSetAction) {
       const selectDate = new Date(year, month, day);
 
       onChange(selectDate);
+
+      console.tron.log(selectDate);
     }
   }
 

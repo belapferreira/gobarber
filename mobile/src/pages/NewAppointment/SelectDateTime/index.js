@@ -22,6 +22,8 @@ export default function SelectDateTime({ route, navigation }) {
         },
       });
 
+      console.tron.log(response.data);
+
       setHours(response.data);
     }
 

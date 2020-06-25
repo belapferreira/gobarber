@@ -1,0 +1,120 @@
+<h1 align="center">
+<img src="../backend/src/assets/bootcamp-header.png">
+</h1>
+
+<h3 align="center">
+  O projeto desenvolvido foi uma aplicação completa para uma prestadora de serviços de beleza fictícia, a GoBarber.
+</h3>
+
+Durante as aulas do [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) além da teoria e para melhor aprendizado é desenvolvida uma aplicação completa (Back-end, Front-end e Mobile) exemplificando como são usados os conteúdos aprendidos e para treinar e consolidar o que foi ensinado fiz o clone code do app aplicando algumas estilização diferentes da proposta do projeto original.
+
+  <p align="center">
+    <img src="src/assets/GoBarberSignIn.PNG" width="15%" height="15%" max-width:100% >
+    <img src="src/assets/GoBarberAppointments.PNG" width="15%" height="15%" max-width:100% >
+    <img src="src/assets/GoBarberSelectDate.PNG" width="15%" height="15%" max-width:100% >
+  </p>
+
+  ### Funcionalidades
+
+  - Login na aplicação para usuários dos serviços prestados;
+  - Cadastro de usuários;
+  - Navegação entre as telas através de botões na extremidade inferior;
+  - Painel para visualização dos agendamentos do usuário que passaram, que ainda ocorrerão e que ainda podem ser cancelados;
+  - Tela para realização de novo agendamento com seleção do prestador de serviço, data e horário disponíveis e confirmação do agendamento;
+  - Tela para atualização de dados, senha e foto do usuário logado.
+
+<blockquote align="center">“Acredite em você a cada passo”</blockquote>
+
+### :heavy_check_mark: Configurações necessárias
+
+-  [Git](https://git-scm.com)
+-  [Node](https://nodejs.org/)
+-  [Yarn](https://yarnpkg.com/)
+-  [Docker](https://www.docker.com/docker-community)
+-  Ambiente para desenvolvimento mobile configurado conforme sistema operacional utilizado
+
+### :arrow_down_small: Clonando o repositório
+1. Pelo terminal, acesse o diretório em que deseja ter o repositório clonado e execute o comando a seguir.
+```bash
+# clonando o repositório
+git clone https://github.com/belapferreira/gobarber
+```
+### :iphone: Iniciando o mobile
+######Observação: é necessário que o backend tenha sido iniciado antes.
+1. Inicialize o emulador ou conecte o dispositivo físico e verifique a disponibilidade em uma janela do terminal.
+```bash
+# verificando dispositivos disponíveis
+adb devices
+```
+2. Pelo terminal, acesse o diretório mobile do repositório clonado e execute os comandos abaixo separadamente.
+```bash
+# instalando as dependências
+yarn install
+```
+3. Abra uma nova janela do terminal, acesse o diretório mobile do repositório clonado e faça a instalação e inicialização da aplicação seguindo os próximos comandos. A aplicação foi desenvolvida utilizando recursos direcionados para Android e pode necessitar de ajustes para dispositivos iOS.
+```bash
+# instalando a aplicação no dispositivo
+react-native run-android
+
+# iniciando a aplicação
+react-native start
+
+# carregando a aplicação
+digite r no terminal || cmd + r e reload || ctrl + m e reload
+```
+### :wrench: Tecnologias | Ferramentas | Recursos
+
+Esse projeto foi desenvolvido utilizando os seguintes recursos:
+
+- Geral
+
+[ESLint](https://eslint.org/)
+[Prettier](https://prettier.io/)
+[Visual Studio Code](https://code.visualstudio.com/)
+
+- Mobile
+
+[@babel/core](https://babeljs.io/docs/en/babel-core)
+[@babel/runtime](https://babeljs.io/docs/en/babel-runtime)
+[@react-native-community/async-storage](https://github.com/react-native-community/async-storage)
+[@react-native-community/cli](https://github.com/react-native-community/cli)
+[@react-native-community/datetimepicker](https://github.com/react-native-community/datetimepicker)
+[@react-native-community/eslint-config](https://github.com/facebook/react-native/tree/master/packages/eslint-config-react-native-community)
+[@react-native-community/masked-view](https://github.com/react-native-community/react-native-masked-view)
+[@react-navigation/bottom-tabs](https://reactnavigation.org/docs/bottom-tab-navigator/)
+[@react-navigation/compat](https://www.npmjs.com/package/@react-navigation/compat)
+[@react-navigation/native](https://www.npmjs.com/package/@react-navigation/native)
+[@react-navigation/stack](https://www.npmjs.com/package/react-navigation-stack)
+[babel-eslint](https://github.com/babel/babel-eslint)
+[babel-jest](https://www.npmjs.com/package/babel-jest)
+[babel-plugin-root-import](https://www.npmjs.com/package/babel-plugin-root-import)
+[axios](https://www.npmjs.com/package/axios)
+[date-fns](https://date-fns.org/)
+[immer](https://github.com/immerjs/immer)
+[jest](https://jestjs.io/)
+[metro-react-native-babel-preset](https://www.npmjs.com/package/metro-react-native-babel-preset)
+[prop-types](https://www.npmjs.com/package/prop-types)
+[react](https://pt-br.reactjs.org/)
+[react-native](https://reactnative.dev/)
+[react-native-gesture-handler](https://github.com/software-mansion/react-native-gesture-handler)
+[react-native-linear-gradient](https://github.com/react-native-community/react-native-linear-gradient)
+[react-native-reanimated](https://github.com/software-mansion/react-native-reanimated)
+[react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context)
+[react-native-screens](https://github.com/software-mansion/react-native-screens)
+[react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
+[react-redux](https://redux.js.org/basics/usage-with-react)
+[react-test-renderer](https://www.npmjs.com/package/react-test-renderer)
+[reactotron-react-native](https://github.com/infinitered/reactotron/blob/master/docs/quick-start-react-native.md)
+[reactotron-redux](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux.md)
+[reactotron-redux-saga](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux-saga.md)
+[redux](https://redux.js.org/)
+[redux-persist](https://github.com/rt2zz/redux-persist)
+[redux-saga](https://redux-saga.js.org/)
+[styled-components](https://styled-components.com/)
+
+### :memo: License
+Esse projeto está sob MIT license. Veja [LICENSE](https://github.com/belapferreira/gobarber/blob/master/LICENSE) para mais informações.
+
+---
+
+Feito por Bela Ferreira :blue_heart: Contato: https://www.linkedin.com/in/belapferreira :blush:

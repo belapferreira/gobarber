@@ -29,8 +29,8 @@ function Header() {
             </div>
             <img
               src={
-                profile.avatar.url ||
-                'https://api.adorable.io/avatars/50/pretty@adorable.io.png'
+                (profile.avatar && profile.avatar.url) ||
+                `https://api.adorable.io/avatar/50/${profile.name}.png`
               }
               alt="Provider Test"
             />

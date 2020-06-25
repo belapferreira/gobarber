@@ -128,6 +128,7 @@ export default function Routes() {
             </Tab.Screen>
             <Tab.Screen
               name="Profile"
+              options={{  unmountOnBlur: true }}
               component={Profile}
               options={{
                 title: 'Meu perfil',

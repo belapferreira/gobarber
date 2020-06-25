@@ -41,7 +41,7 @@ function AvatarInput() {
         <img
           src={
             preview ||
-            'https://api.adorable.io/avatars/50/pretty@adorable.io.png'
+            "https://api.adorable.io/avatars/50/ProviderTeste.png"
           }
           alt=""
         />
