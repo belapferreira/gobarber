@@ -74,8 +74,7 @@ git clone https://github.com/belapferreira/gobarber
 ```
 
 ### :beginner: Iniciando o backend
-
-1. Crie os serviços de bancos de dados `postgres`, `mongo` e `redis` utilizando os comandos a seguir. Os nomes e a senha são uma sugestão e podem ser alterados conforme sua preferência;
+1. Crie os serviços de bancos de dados `postgres`, `mongo` e `redis` utilizando os comandos a seguir. Os nomes e a senha são uma sugestão e podem ser alterados conforme sua preferência.
 ```bash
 # criando serviço de banco de dados postgres
 docker run --name postgressgobarber -e POSTGRES_PASSWORD=gobarber2020 -p 5432:5432 -d postgres
@@ -86,9 +85,14 @@ docker run --name mongobarber -p 27017:27017 -d -t mongo
 # criando serviço de banco de dados redis
 docker run --name redisbarber -p 6379:6379 -d -t redis:alpine
 ```
-2. Abra o projeto no editor de sua preferência e renomeie o arquivo `.env.example` para `.env`;
-3. Coloque as suas credenciais no arquivo `.env`;
-4. Pelo terminal, acesse o diretório backend do repositório clonado e execute os seguintes comandos separadamente.
+2. Utilizando uma aba do terminal inicie os serviços de banco de dados conforme comando abaixo.
+```bash
+# iniciando os serviços de banco de dados
+docker start gobarber mongobarber redisbarber
+```
+3. Abra o projeto no editor de sua preferência e renomeie o arquivo `.env.example` para `.env`.
+4. Coloque as suas credenciais no arquivo `.env`.
+5. Pelo terminal, acesse o diretório backend do repositório clonado e execute os seguintes comandos separadamente.
 ```bash
 # instalando as dependências
 yarn install
