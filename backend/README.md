@@ -51,7 +51,7 @@ docker run --name redisbarber -p 6379:6379 -d -t redis:alpine
 2. Utilizando uma aba do terminal inicie os serviços de banco de dados conforme comando abaixo.
 ```bash
 # iniciando os serviços de banco de dados
-docker start gobarber mongobarber redisbarber
+docker start postgresgobarber mongobarber redisbarber
 ```
 3. Abra o projeto no editor de sua preferência e renomeie o arquivo `.env.example` para `.env`.
 4. Coloque as suas credenciais no arquivo `.env`.
