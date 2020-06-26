@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+import { useNavigation } from '@react-navigation/native';
 
 import {
   Container,
@@ -17,6 +18,7 @@ import { updateProfileRequest } from '~/store/modules/user/actions';
 
 export default function Profile() {
   const dispatch = useDispatch();
+  const navigation = useNavigation();
   const profile = useSelector((state) => state.user.profile);
 
   const emailRef = useRef();
@@ -50,6 +52,14 @@ export default function Profile() {
 
   function handleLogout() {
     dispatch(signOut());
+    navigation.reset({
+      routes: [
+        {
+          name: 'Dashboard',
+        }
+      ],
+      index: 0,
+    })
   }
 
   return (
