@@ -24,9 +24,10 @@ Durante as aulas do [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/boot
 
   ### Funcionalidades
 
-  - Login na aplicação para os prestadores de serviço;
+  - Autenticação na aplicação para os prestadores de serviço;
   - Cadastro de prestadores de serviço;
-  - Painel para visualização dos agendamentos por dia;
+  - Mensagens em forma de toast quando ocorre problemas na autenticação ou no cadastro;
+  - Painel para visualização dos agendamentos com navegação por dia;
   - Recebimento de notificações quando ocorre um agendamento;
   - Marcação de notificação como lida;
   - Tela para atualização de dados, senha e foto do prestador de serviço logado.

@@ -40,17 +40,19 @@ Durante as aulas do [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/boot
 
   Versão web:
 
-  - Login na aplicação para os prestadores de serviço;
+  - Autenticação na aplicação para os prestadores de serviço;
   - Cadastro de prestadores de serviço;
-  - Painel para visualização dos agendamentos por dia;
+  - Mensagens em forma de toast quando ocorre problemas na autenticação ou no cadastro;
+  - Painel para visualização dos agendamentos com navegação por dia;
   - Recebimento de notificações quando ocorre um agendamento;
   - Marcação de notificação como lida;
   - Tela para atualização de dados, senha e foto do prestador de serviço logado.
   
   Versão mobile:
 
-  - Login na aplicação para usuários dos serviços prestados;
+  - Autenticação na aplicação para usuários dos serviços prestados;
   - Cadastro de usuários;
+  - Mensagens em forma de toast quando ocorre problemas na autenticação ou no cadastro;
   - Navegação entre as telas através de botões na extremidade inferior;
   - Painel para visualização dos agendamentos do usuário que passaram, que ainda ocorrerão e que ainda podem ser cancelados;
   - Tela para realização de novo agendamento com seleção do prestador de serviço, data e horário disponíveis e confirmação do agendamento;

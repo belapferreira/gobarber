@@ -25,8 +25,9 @@ Durante as aulas do [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/boot
 
   ### Funcionalidades
 
-  - Login na aplicação para usuários dos serviços prestados;
+  - Autenticação na aplicação para usuários dos serviços prestados;
   - Cadastro de usuários;
+  - Mensagens em forma de toast quando ocorre problemas na autenticação ou no cadastro;
   - Navegação entre as telas através de botões na extremidade inferior;
   - Painel para visualização dos agendamentos do usuário que passaram, que ainda ocorrerão e que ainda podem ser cancelados;
   - Tela para realização de novo agendamento com seleção do prestador de serviço, data e horário disponíveis e confirmação do agendamento;
