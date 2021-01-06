@@ -18,7 +18,7 @@
     "@react-navigation/compat": "^5.1.25",
     "@react-navigation/native": "^5.4.2",
     "@react-navigation/stack": "^5.4.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "date-fns": "^2.0.0-beta.5",
     "immer": "^6.0.8",
     "prop-types": "^15.7.2",
